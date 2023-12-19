@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "app": "tsc app.ts && node app.js"
+    "app": "tsc app.ts && node app.js",
+    "test": "cypress run"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.1"
   }
 }
